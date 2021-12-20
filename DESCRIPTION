@@ -1,0 +1,25 @@
+Package: StatComp21016
+Type: Package
+Title: Statistic Computation Project
+Version: 1.0
+Date: 2021-12-14
+Author: 21016
+Maintainer: 21016 <ssy18055118551@163.com>
+Description: One paragraph description of what the
+      package does as one or more full sentences.
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.7),microbenchmark, knitr, rmarkdown, MASS, boot,bootstrap, RANN, Ball, energy
+LinkingTo: Rcpp
+RoxygenNote: 7.1.2
+Encoding: UTF-8
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+URL: http://github.com/sshuyang/Statistic-Computation
+BugReports: http://github.com/sshuyang/Statistic-Computation/issues
+
+
+
+
+
+
+
