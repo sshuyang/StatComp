@@ -150,7 +150,7 @@ print(obj)
 n=1000
 x1=rnorm(n,0,1)
  x2=rnorm(n,1,0.3)
-index<-sample(c(1,0),n,replace = T,prob = c(0.3,0.7))
+index<-sample(c(1,0),n,replace = TRUE,prob = c(0.3,0.7))
 X=index*x1+(1-index)*x2
 h=0.05
 x=seq(-2,3,0.01)
